@@ -1,0 +1,207 @@
+
+@font-face {
+    font-family: 'SFapple';
+    src: url(Fonts/sfprodisplaymedium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'SFapple', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h2{
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+.navbar {
+    background-color: #333;
+}
+  
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+  
+.navbar li {
+    margin: 0 10px;
+}
+  
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.promoTitle{
+    font-size: 3rem; 
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.promoMainPage{
+    padding: 4em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.promoWrapper{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;   
+    flex-wrap: wrap;  
+    gap: 300px;      
+    text-align: center;
+    padding: 2rem;         
+    min-height: 20vh;
+}
+
+.promoChoice{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.promoCard{
+     background: #fff;
+     border: 1px solid #ddd;
+     border-radius: 12px;
+     padding: 1rem;
+     max-width: 200px;
+     width: 100%;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.promoCard img{
+     width: 85%;
+     height: auto;
+     margin: 1rem;
+}
+
+.promoCard a {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+} 
+
+.included{
+    font-family: 'SFapple', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100px;
+
+}
+
+.item img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 0.5em;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    font-family: 'SFapple', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 100px auto;
+  font-size: 25px;
+  color: #333;
+  justify-content: center;
+}
+
+
+.trade-in {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 10%;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.trade-in .text {
+  font-family: 'SFapple', Tahoma, Geneva, Verdana, sans-serif;
+  flex: 1 1 300px;
+  font-size: 30px;
+  padding-bottom: 190px;
+}
+
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.footer-content span {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.instaIcon{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    
+}
+
+.xIcon{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+

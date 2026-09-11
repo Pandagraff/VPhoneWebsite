@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/regist.css"/>
+</head>
+<body>
+    <div class="regist-container">
+        <h1>Register</h1>
+        <form id = "registForm">
+            <input type = "text" id = "username" placeholder = "Username" required />
+            <input type = "email" id = "email" placeholder = "Email" required />
+            <input type = "text" id = "gender" placeholder = "Gender" required />
+            <input type = "password" id = "passwordRegist" placeholder = "Password" required />
+            <input type = "password" id = "passwordConfirm" placeholder = "Password Confirm" required />
+            <button type="submit" class="done-btn">DONE</button>
+            <div id="errors" style="display:none; color: red;"></div>
+        </form>
+    </div>
+    <script src="assets/js/regist.js"></script>
+</body>
+</html>
