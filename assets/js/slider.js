@@ -1,14 +1,14 @@
 
 const images = [{
-        src: "image 10.png",
+        src: "assets/photos/image 10.png",
         text: "hah"
     },
     {
-        src: "image 12.png",
+        src: "assets/photos/image 12.png",
         text: "hihi"
     },
     {
-        src: "image 10.png",
+        src: "assets/photos/image 10.png",
         text: "awa"
     }
 ];
